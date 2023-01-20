@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+    margin-top: 2em;
+    font-size: 1.2em;
+}
