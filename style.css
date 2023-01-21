@@ -6,7 +6,41 @@ header{
 
 nav{
     display: flex;
-    gap: 25px;
-    margin-top: 2em;
+    gap: 75px;
+    margin-top: 3.5em;
     font-size: 1.2em;
+}
+
+header img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 15em;
+    width: auto;
+    margin: -3em;
+}
+
+.index_presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(images/fond-site-thomas.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 25em;
+    width: auto;
+}
+
+.liens_presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px; 
+}
+
+.liens_individuels{
+    background-color: #feca00;
+    color: grey;
+    background-size: 20px;
 }
