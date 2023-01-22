@@ -1,0 +1,291 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    gap: 75px;
+    margin-top: 3.5em;
+}
+
+nav a{
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 1.2em;
+    font-family: 'Teko', sans-serif;
+    color: #354369;
+}
+
+nav a:hover{
+    color: #f5f5f5;
+}
+
+nav a:active{
+    color: #feca00;
+    text-decoration: underline;
+}
+
+header img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 15em;
+    width: auto;
+    margin: -3em;
+}
+
+/* fin HEADER / Debut MAIN*/
+
+.index_presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/fond-site-thomas.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 25em;
+    width: auto;
+}
+
+.index_presentation h1{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-shadow: #feca00 2.5px 2.5px 2px ;
+}
+
+.liens_presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px; 
+}
+
+.liens_individuels{
+    background-color: #feca00;
+    color: #354369;
+    background-size: 20px;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+    border-radius: 2em;
+    padding: 10px 20px 10px 20px;
+}
+
+.liens_individuels:hover{
+    box-shadow: #feca00 2px 2px 2em;
+    color: #354369;
+}
+
+.liens_individuels:active{
+    background-color: grey;
+    box-shadow: grey 2px 2px 2em;
+    color: #feca00;
+}
+
+.index_apropos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 4px;
+    background-color: #f5f5f5;
+}
+
+.index_apropos_text h2{
+    color: #354369;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.index_apropos_text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+    font-size: 25px;
+    word-spacing: 2px;
+    margin: auto;
+
+}
+
+.index_apropos_text a{
+    background-color: #354369;
+    margin: auto;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 1.5em;
+    font-family: 'Teko', sans-serif;
+}
+
+.index_apropos_text a:hover{
+    background-color:#f5f5f5 ;
+    border: #354369 solid 1px;
+    color: #354369;
+}
+
+.index_apropos_text a:active{
+    background-color: #feca00;
+}
+
+.index_apropos img{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 700px ;  
+}
+
+.index_galerie{
+    color: #f5f5f5;
+    background-color: #354369;
+}
+
+.index_galerie{
+    color: #f5f5f5;
+    background-color: #354369;
+    padding-top: 25px;
+    margin-top: 4px;
+padding-bottom: 40px;
+}
+
+.index_galerie h2{
+    font-size: 35px;
+    text-align: center;
+    color: #f5f5f5;
+    font-family: 'Lobster', cursive;
+}
+
+.index_galerie div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    gap: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#index_formulaire{
+    opacity: 80%;
+}
+
+form{
+    background-image: url(images/formu\ contact.png);
+    background-size: cover;
+    background-position: left;
+    background-position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 15px 70px 15px 70px;
+    margin-top: 4px;
+}
+
+form h2{
+    color: #f5f5f5;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+.form_nom_email{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .form_colonne{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+  }
+
+  input, textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+    
+  }
+  
+  label{
+    color: #f5f5f5;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #f5f5f5;
+    color: #354369;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    border-radius: 1.5em;
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  input[type='submit']:hover{
+    color: #354369;
+    background-color: #feca00;
+  }
+
+  input[type='submit']:active{
+    color: #f5f5f5;
+    box-shadow: #feca00 2px 2px 2em;
+  }
+
+#index_formulaire{
+    display: flex;
+    flex-direction: row;
+}
+
+#index_formulaire img{
+    justify-content: flex-end;
+    width: 850px ;  
+    margin-top: 4px;
+}
+
+
+
+/* fin main / debut FOOTER */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+footer img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    margin-top: -35px;
+    margin-bottom: -50px;
+
+}
+
+footer p{
+    color: #354369;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+
+/* fin footer */

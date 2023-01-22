@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
@@ -17,13 +17,13 @@
     <body>
         <header>
 
-            <img  src="images/Yellow Rocket Cloud Tech Logo Design Template (1).svg" alt="logo association Matcak" title="logo de l'association Matcak">
+            <img  src="images/Yellow Rocket Cloud Tech Logo Design Template (1).svg" alt="logo association Matcak">
 
             <nav>
                 <a href="index.html">Accueil</a>
                 <a href="association.html">Association</a>
                 <a href="balloon_space.html">Projet Balloon Space</a>
-                <a href="#index-formulaire">contact</a>
+                <a href="#index_formulaire">contact</a>
             </nav>
 
            
@@ -38,7 +38,7 @@
             
                 <div class="liens_presentation">
                     <a class="liens_individuels" href="balloon_space.html">voir notre projet associatif</a>
-                    <a class="liens_individuels" href="#index-formulaire">l'association vous intérésses ?</a> 
+                    <a class="liens_individuels" href="#index_formulaire">l'association vous intérésses ?</a> 
                 </div>
         </section>
 
@@ -59,7 +59,7 @@
                 <a href="association.html">En savoir plus</a>
             </div>
 
-            <img src="images/photo_strato.jpg" alt="photo prise depuis la stratosphére" title="photo depuis la stratosphére">
+            <img src="images/photo_strato.jpg" alt="photo prise depuis la stratosphére">
         </section>
 
         <section class="index_galerie">
@@ -67,50 +67,51 @@
             <h2>On a tous le droit de rêver !</h2>
 
             <!-- Mettre en row differentes images sur les cours d'OC réalisés -->
-            <div class="index-grille">
-                <img src="images/launch_weather_balloon.jpg" alt="lancer du ballon stratosphérique" title="lancer du ballon stratosphérique">
-                <img src="images/weather_balloon_ascent.jpg" alt="arrivée du ballon dans la stratosphére" title="arrivée du ballon dans la stratosphére">
-                <img src="images/burst_weather_balloon1.jpg" alt="explosion du ballon" title="explosion du ballon">
-                <img src="images/recovery_weather_balloon.jpg" alt="recupération du ballon sur la terre ferme" title="recupération du ballon sur la terre ferme">
-                <img src="images/presentation_balloon_school.jpg" alt="analyse des images prisent pendant le vol" title="analyse des images prisent pendant le vol">
+            <div>
+                <img src="images/launch_weather_balloon.jpg" alt="lancer du ballon stratosphérique">
+                <img src="images/ballonstart.jpg" alt="ballon stratosphérique lancé">
+                <img src="images/weather_balloon_ascent.jpg" alt="arrivée du ballon dans la stratosphére">  
             </div>
 
-            <a href="balloon_space.html">rêvons ensemble</a>
+            <div>
+                <img src="images/burst_weather_balloon1.jpg" alt="explosion du ballon">
+                <img src="images/recovery_weather_balloon.jpg" alt="recupération du ballon sur la terre ferme">
+                <img src="images/presentation_balloon_school.jpg" alt="analyse des images prisent pendant le vol">
+            </div>
 
         </section>
 
-        <section class="index_mes_ambitions">
-            <h2>Mes ambitions et intérêts</h2>
-
-            <p>Comme vous le savez déja, je souhaite réellement accéder à votre formation de Dévellopeur d'application PYTHON.
-                Aprés plus de dix années à travailler au sein de la même société Aéroportuaire et avec plus de trois ans en double activité 
-                professionnelle de par ma micro-entreprise dans le BTP, j'ai réalisé que le bien-être de notre vie privée n'est que la 
-                résultante de notre vie professionnelle. Aprés une période de Burn-out je me suis donc remis en question quant à mes souhait d'avenir.
-                Le domaine de l'informatique m'avait toujours attiré et du coup me voilà !<br>
-                Toutefois je ne désires pas m'arréter à l'obtention de votre formation ! J'ai soif de savoir et de compréhension !
-            </p>
-
-            <a href="mes_ambitions.html">Vous voulez connaitre mes ambitions futurs ?</a>
-
-        </section>
-
-        <section id="index-formulaire">
+        <section id="index_formulaire">
 
             <form method="get" action="">
+
+                <h2>Contacter-nous</h2>
+
+                <div class="form_nom_email">
+                  <div class="form_colonne">  
                 <p>
                     <label for="nom">Nom</label>
-                    <input type="text" id="nom" name="nom" checked required placeholder="Service Open Classrooms" >
+                    <input type="text" id="nom" name="nom" required placeholder="thomas" >
                 </p>
+                    </div>
 
+                    <div class="form_colonne"> 
                 <p>
                     <label for="mail">Votre mail</label>
-                    <input type="email" id="mail" name="mail" required checked placeholder="service@openclassrooms.com">
+                    <input type="email" id="mail" name="mail" required placeholder="thomas@thomas.com">
                 </p>
+                    </div>
+
+                </div>
 
                 <label for="message">Votre Message</label>
-                <textarea id="message" name="message" required checked placeholder="Bonjour, nous avons décidez d'accepter votre demande ! Youpiiii"></textarea>
+                <textarea name="message" id="message" rows="10" required placeholder="Bonjour, je voudrais m'inscrire comme adhérant !"></textarea>
+           
+                <input type="submit" value="envoyer" class="">
 
             </form>
+
+            <img src="images/img_form.jpeg" alt="ballon dans l'espace">
 
         </section>
 
@@ -118,6 +119,11 @@
         
         <footer>
 
+            <img  src="images/Yellow Rocket Cloud Tech Logo Design Template (1).svg" alt="logo association Matcak">
+
+            <p>Ce site internet a utilisé des images non libres de droits ! Il n'a été réalisé que dans le but d'un projet d'admission au sein d'une 
+                institution de formation.
+            </p>
 
         </footer>
 
