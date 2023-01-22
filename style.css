@@ -36,7 +36,7 @@ header img{
     margin: -3em;
 }
 
-/* fin header */
+/* fin HEADER / Debut MAIN*/
 
 .index_presentation{
     display: flex;
@@ -68,7 +68,7 @@ header img{
     background-color: #feca00;
     color: #354369;
     background-size: 20px;
-    font-size: 0.4em;
+    font-size: 20px;
     font-family: 'Teko', sans-serif;
     text-decoration: none;
     border-radius: 2em;
@@ -108,8 +108,10 @@ header img{
     flex-direction: column;
     width: 50%;
     text-align: justify;
-    font-size: 1.5em;
+    font-size: 25px;
+    word-spacing: 2px;
     margin: auto;
+
 }
 
 .index_apropos_text a{
@@ -118,9 +120,11 @@ header img{
     color: #f5f5f5;
     text-decoration: none;
     font-size: 25px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     padding: 5px 15px 5px 15px;
     border-radius: 1.5em;
+    font-family: 'Teko', sans-serif;
 }
 
 .index_apropos_text a:hover{
@@ -137,7 +141,7 @@ header img{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 900px ;  
+    width: 700px ;  
 }
 
 .index_galerie{
