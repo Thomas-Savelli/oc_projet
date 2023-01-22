@@ -37,6 +37,7 @@ header img{
 }
 
 /* fin HEADER / Debut MAIN*/
+/* DEBUT 1 ERE SECTION (BANDEAU PRINCIPAL) */
 
 .index_presentation{
     display: flex;
@@ -85,6 +86,9 @@ header img{
     box-shadow: grey 2px 2px 2em;
     color: #feca00;
 }
+
+/* FIN 1ERE SECTION */
+/* DEB 2E SECTION (A PROPOS) */
 
 .index_apropos{
     display: flex;
@@ -144,10 +148,8 @@ header img{
     width: 700px ;  
 }
 
-.index_galerie{
-    color: #f5f5f5;
-    background-color: #354369;
-}
+/* FIN 2E SECTION (A PROPOS) */
+/* DEB 3E SECTION (GALERIE IMG) */
 
 .index_galerie{
     color: #f5f5f5;
@@ -173,6 +175,9 @@ padding-bottom: 40px;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
+
+/* FIN 3E SECTION (GALERIE IMG) */
+/* DEB 4E ET DERNIERE SECTION (FORMULAIRE) */
 
 #index_formulaire{
     opacity: 80%;
@@ -261,8 +266,7 @@ form h2{
     margin-top: 4px;
 }
 
-
-
+/* FIN 4E ET DERNIERE SECTION (FORMULAIRE) */
 /* fin main / debut FOOTER */
 footer{
     display: flex;

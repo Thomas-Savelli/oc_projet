@@ -1,0 +1,128 @@
+/* Le HEADER ET LE FOOTER SONT GERE DANS LE FICHIER INDEX.CSS */
+
+/* DEB MAIN / 1ERE SECTION (BANDEAU PRINCIPAL) */
+
+.association_bandeau{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/association/formu\ contact.png);
+    background-size: cover;
+    background-position: center;
+    height:15em;
+    width: auto;
+}
+
+.association_bandeau h1{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-shadow: #feca00 2.5px 2.5px 2px ;
+    color: #f5f5f5;
+}
+
+/* FIN 1ERE SECTION (BANDEAU PRINCIPAL) */
+/* DEB 2E SECTION (TEAM PRESENTATION) */
+
+h2{
+    color: #354369;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.team_partie1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-left: #354369 solid 20px;
+    gap: 50px;
+}
+
+.team_partie1 img{
+    height: 450px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.grille_paragraphe_numero img{
+    height: 60px;
+}
+
+.grille_paragraphe_numero p{
+    margin-right: 45px;
+    text-align: justify;
+    width: 90%;
+    
+
+}
+
+.grille_paragraphe_numero{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+/* FIN 2ERE SECTION (TEAM PRESENTATION) */
+/* DEB 3EME ET DERNIERE SECTION (ADHESION) */
+
+.adhesion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #354369;
+    color: #f5f5f5;
+    font-size: 22px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.adhesion_text_image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 40px 20px 40px;
+    gap: 25px;
+}
+
+.adhesion p{
+    padding: 0px 20px 0px 0px
+}
+
+.adhesion img{
+    width: 650px;
+}
+
+.adhesion a{
+    color: #f5f5f5;
+    text-decoration: none;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    background-color: #f5f5f5;
+    color: #354369;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    border-radius: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    padding: 12px 12px 12px 12px;
+}
+
+.adhesion a:hover{
+    color: #354369;
+    background-color: #feca00;
+}
+
+.adhesion a:active{
+    color: #f5f5f5;
+    box-shadow: #feca00 2px 2px 2em;
+}
+
+/* FIN 3EME ET DERNIERE SECTION (ADHESION)  */
+/* SCRIPT FOOTER SUR FICHIER INDEX.CSS */
