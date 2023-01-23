@@ -72,7 +72,11 @@ h2{
 
 /* FIN 2ERE SECTION (TEAM PRESENTATION) */
 /* DEB 3EME ET DERNIERE SECTION (ADHESION) */
-
+@media screen and (max-width: 800px) {
+    .adhesion_text_image{
+        color: red;
+    }
+}
 .adhesion{
     display: flex;
     flex-direction: column;
@@ -82,6 +86,8 @@ h2{
     text-align: justify;
     padding-bottom: 20px;
 }
+
+
 
 .adhesion_text_image{
     display: flex;
@@ -126,3 +132,5 @@ h2{
 
 /* FIN 3EME ET DERNIERE SECTION (ADHESION)  */
 /* SCRIPT FOOTER SUR FICHIER INDEX.CSS */
+
+

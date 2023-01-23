@@ -1,6 +1,4 @@
-body{
-    width: 100%;
-}
+/* styles pour écrans entre 600px et 900px de largeur */
 
 header{
     display: flex;
@@ -153,6 +151,8 @@ header img{
     width: 700px ;  
 }
 
+
+
 /* FIN 2E SECTION (A PROPOS) */
 /* DEB 3E SECTION (GALERIE IMG) */
 
@@ -170,6 +170,8 @@ header img{
     color: #f5f5f5;
     font-family: 'Lobster', cursive;
 } 
+
+
 
 .index_galerie div{
     display: flex;
@@ -285,3 +287,43 @@ footer p{
 
 
 /* fin footer */
+
+/* DEB MEDIA QUERIES - 640px smartphone / 641px à 1023px tablette */
+
+/* MQ TABLETTE */
+@media only screen and (min-width: 641px) and (max-width: 1023px)
+{
+    header img{
+        display: none;
+    }
+    nav{
+    font-size: 1em;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 5px;
+    }
+    .index_apropos {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .gallerie_mq{
+        display: none;
+    }
+    .index_galerie div{
+        flex-direction: column;
+        height: 50%;
+        margin-bottom: -10px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer p{
+        text-align: center;
+    }
+}
+
+/* MQ SMARTPHONE */
+@media screen and (max-width: 640px)
+{
+...
+}
