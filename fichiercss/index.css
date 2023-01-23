@@ -48,7 +48,7 @@ header img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(images/fond-site-thomas.jpg);
+    background-image: url(../images/fond-site-thomas.jpg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -185,7 +185,7 @@ header img{
 /* DEB 4E ET DERNIERE SECTION (FORMULAIRE) */
 
 .contact{
-    background-image: url(images/formu\ contact.png);
+    background-image: url(../images/formu\ contact.png);
     background-size: cover;
     background-position-x: left;
     background-position-y: bottom;
