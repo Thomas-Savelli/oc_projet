@@ -66,7 +66,9 @@ h2{
     justify-content: flex-start;
     align-items: center;
     gap: 40px;
+    padding-bottom: 20px;
 }
+
 
 /* FIN 2ERE SECTION (TEAM PRESENTATION) */
 /* DEB 3EME ET DERNIERE SECTION (ADHESION) */
@@ -74,7 +76,6 @@ h2{
 .adhesion{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-color: #354369;
     color: #f5f5f5;
     font-size: 22px;
@@ -91,11 +92,11 @@ h2{
 }
 
 .adhesion p{
-    padding: 0px 20px 0px 0px
+    padding: 50px 10px 0px 0px
 }
 
 .adhesion img{
-    width: 650px;
+    width: 450px;
 }
 
 .adhesion a{
@@ -109,8 +110,7 @@ h2{
     font-family: 'Teko', sans-serif;
     font-size: 25px;
     border-radius: 1.5em;
-    margin-top: 30px;
-    margin-bottom: 35px;
+    margin-bottom: 5px;
     padding: 12px 12px 12px 12px;
 }
 

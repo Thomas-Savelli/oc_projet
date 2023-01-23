@@ -1,2 +1,124 @@
-/*  LE SCRIPT CSS DU HEADER ET DU FOOTER SONT DANS LE FICHIER INDEX.HTML */
+/*  LE SCRIPT CSS DU HEADER ET DU FOOTER SONT DANS LE FICHIER INDEX.CSS */
+
+/* DEB 1ERE SECTION (BANDEAU BALLOON SPACE) */
+
+.bandeau_balloon_space{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/association/formu\ contact.png);
+    background-size: cover;
+    background-position: center;
+    height:15em;
+    width: auto;
+    color: #f5f5f5;
+}
+
+.bandeau_balloon_space h1{
+    font-size: 50px;
+    font-family: "lobster", cursive;
+    text-shadow: #feca00 2.5px 2.5px 2px ;
+}
+
+.bandeau_balloon_space p{
+    font-size: 20px;
+    font-family: 'teko', sans-serif;
+}
+
+/* FIN 1ERE SECTION (BANDEAU BALLOON SPACE) */
+/* DEB 2EME SECTION (EXPLICATION_BALLOON) */
+
+.explication_balloon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px ;
+    border-right: #354369 solid 20px;
+}
+
+.explication_balloon p{
+    text-align: justify;
+    font-size: 22px;
+}
+
+.explication_balloon h2{
+    color: #354369;
+    text-align: center;
+    font-size: 40px;
+    font-family: "lobster", cursive;
+}
+
+/* FIN 2EME SECTION (EXPLICATION_BALLOON) */
+/* DEB 3EME ET DERNIERE SECTION (PROGRAMME PROJET BALLOON SPACE) */
+
+.programme_balloon_space{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-left: #354369 solid 20px;
+    border-bottom: #354369 solid 20px;
+}
+
+.programme_balloon_space h2{
+    color: #354369;
+    font-size: 40px;
+    font-family: "lobster", cursive;
+}
+
+.programme_balloon_space img{
+    width: 1300px;
+}
+
+.programme_balloon_space_suite{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.programme_balloon_space_suite_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    text-align: justify;
+    width: 60%;
+    font-size: 22px;
+    gap: 22px;
+}
+
+.programme_balloon_space_suite_text h3{
+    color: #354369;
+    font-size: 30px;
+    font-family: "lobster", cursive;
+}
+
+.stratoflights{
+    text-decoration: none;
+    color: #354369;
+    font-family: "teko", sans-serif;
+}
+
+.stratoflights:hover{
+    color: #feca00;
+    text-decoration: underline;
+}
+
+.stratoflights:active{
+    color: #354369;
+    text-shadow: #feca00 2px 2px 2em;
+}
+
+.programme_balloon_space_suite img{
+    height: 700px;
+    width: auto;
+}
+
+/* FIN 3EME ET DERNIERE SECTION (PROGRAMME PROJET BALLOON SPACE) */
+/*  LE SCRIPT CSS DU HEADER ET DU FOOTER SONT DANS LE FICHIER INDEX.CSS */
 
