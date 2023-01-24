@@ -122,3 +122,77 @@
 /* FIN 3EME ET DERNIERE SECTION (PROGRAMME PROJET BALLOON SPACE) */
 /*  LE SCRIPT CSS DU HEADER ET DU FOOTER SONT DANS LE FICHIER INDEX.CSS */
 
+/* DEB MEDIA QUERIES - 640px smartphone / 641px à 1100px tablette */
+
+/* MQ TABLETTE */
+@media only screen and (min-width: 641px) and (max-width: 1100px)
+{
+    .index_apropos {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .gallerie_mq{
+        display: none;
+    }
+    .index_galerie div{
+        flex-direction: column;
+        height: 50%;
+        margin-bottom: -10px;
+    }
+    .explication_balloon{
+        flex-direction: column;
+        border: none;
+        margin-right: 20px;
+    }
+    .programme_balloon_space{
+        border: none;
+    }
+    .programme_balloon_space img{
+        width: 750px;
+    }
+    .programme_balloon_space_suite img{
+        display: none;
+    }
+}
+
+/* MQ SMARTPHONE */
+@media screen and (max-width: 640px)
+{
+    .bandeau_balloon_space h1{
+        text-align: center;
+    }
+    .bandeau_balloon_space p{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .explication_balloon{
+        flex-direction: column;
+        border: none;
+        margin-right: 20px;
+    }
+    .explication_balloon img{
+        height: 250px;
+    }
+    .programme_balloon_space{
+        border: none;
+    }
+    .programme_balloon_space h2{
+        display: none;
+    }
+    .programme_balloon_space h3{
+        text-align: center;
+    }
+    .programme_balloon_space img{
+        display: none;
+    }
+    .programme_balloon_space_suite img{
+        display: none;
+    }
+    iframe{
+        width: 334px;
+        height: 200px;
+    }
+}
+width="800" height="400"
+<iframe width="334" height="200" src="https://www.youtube.com/embed/R5XsiVWVPv0" title="Stratoflights - Präsentieren Sie Ihre Marke der Welt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+

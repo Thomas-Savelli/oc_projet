@@ -72,11 +72,7 @@ h2{
 
 /* FIN 2ERE SECTION (TEAM PRESENTATION) */
 /* DEB 3EME ET DERNIERE SECTION (ADHESION) */
-@media screen and (max-width: 800px) {
-    .adhesion_text_image{
-        color: red;
-    }
-}
+
 .adhesion{
     display: flex;
     flex-direction: column;
@@ -133,4 +129,86 @@ h2{
 /* FIN 3EME ET DERNIERE SECTION (ADHESION)  */
 /* SCRIPT FOOTER SUR FICHIER INDEX.CSS */
 
+/* DEB MEDIA QUERIES - 640px smartphone / 641px à 1100px tablette */
+
+/* MQ TABLETTE */
+@media only screen and (min-width: 641px) and (max-width: 1100px)
+{
+    /* le header et le footer sont gerer par le fichier index.css */
+    .team{
+        margin-top: 60px;
+    }
+    .team_partie1{
+        flex-direction: column;
+        border: none;
+    }
+    .team_partie1 img{
+        height: 25em;
+        margin-top: 60px;
+    }
+    .grille_paragraphe_numero{
+        flex-direction: row;
+        margin-bottom: 25px;
+    }
+    .grille_paragraphe_numero img{
+        height: 100px;
+    }
+    .adhesion_text_image{
+        flex-direction: column;
+        align-items: center;
+    }
+    .adhesion_text_image img{
+        height: 800px;
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+}
+
+/* MQ SMARTPHONE */
+@media screen and (max-width: 640px)
+{
+    .association_bandeau h1{
+        text-align: center;
+    }
+    .team{
+        margin-top: 60px;
+    }
+    .team_partie1{
+        flex-direction: column;
+        align-items: center;
+        border: none;
+    }
+    .team_partie1 img{
+        height: 10em;
+        margin-top: 60px;
+    }
+    .grille_paragraphe_numero{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    .grille_paragraphe_numero img{
+        height: 80px;
+    }
+    .grille_paragraphe_numero p{
+        margin-left: 40px;
+    }
+    .adhesion_text_image{
+        flex-direction: column;
+        align-items: center;
+    }
+    .adhesion_text_image img{
+        height: 350px;
+        width: auto;
+        margin-bottom: 40px;
+    }
+    .adhesion a{
+        width: 200px;
+        margin: auto;
+        font-size: 25px;
+        padding: 12px 12px 12px 12px;
+        }
+    
+}
 

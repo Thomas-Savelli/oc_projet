@@ -288,10 +288,10 @@ footer p{
 
 /* fin footer */
 
-/* DEB MEDIA QUERIES - 640px smartphone / 641px à 1023px tablette */
+/* DEB MEDIA QUERIES - 640px smartphone / 641px à 1100px tablette */
 
 /* MQ TABLETTE */
-@media only screen and (min-width: 641px) and (max-width: 1023px)
+@media only screen and (min-width: 641px) and (max-width: 1100px)
 {
     header img{
         display: none;
@@ -325,5 +325,52 @@ footer p{
 /* MQ SMARTPHONE */
 @media screen and (max-width: 640px)
 {
-...
+    header{
+        flex-direction: column-reverse ;
+    }
+
+    header img{
+       display: none; 
+    }
+    nav{
+        font-size: 1em;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 5px;
+
+        margin-bottom: 20px;
+    }
+    .index_presentation h1{
+        text-align: center;
+    }
+    .liens_presentation{
+        flex-direction: column;
+    }
+    .index_apropos {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .index_apropos img{
+        display: none;
+    }
+    .index_apropos_text{
+        font-size: 1.4em;
+    }
+    .gallerie_mq{
+        display: none;
+    }
+    .index_galerie div{
+        flex-direction: column;
+        height: 50%;
+        margin-bottom: -10px;
+    }
+    .form-nom-email{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer p{
+        text-align: center;
+    }
 }
