@@ -124,6 +124,15 @@
 
 /* DEB MEDIA QUERIES - 640px smartphone / 641px à 1100px tablette */
 
+/* MQ PETIT ORDINATEUR / Seule moyen trouvé pour régler superposition des IMG concernées sur balloon_space.html */
+@media screen and (min-width: 1101px) and (max-width: 1280px) {
+    .programme_balloon_space img{
+        width: 900px;
+    }
+    .programme_balloon_space_suite img{
+        display: none;
+    }
+}
 /* MQ TABLETTE */
 @media only screen and (min-width: 641px) and (max-width: 1100px)
 {
